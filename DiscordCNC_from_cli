@@ -1,0 +1,2 @@
+DeviceNetworkEvents
+| where RemoteUrl contains "cdn.discordapp.com" and InitiatingProcessFileName has_any ("cmd.exe", "powershell.exe", "powershell_ise.exe", "wmic.exe")
